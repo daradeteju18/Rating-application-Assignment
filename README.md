@@ -53,28 +53,32 @@ Different user roles (System Administrator, Normal User, Store Owner) have disti
    git clone https://github.com/daradeteju18/Rating-application-Assignment.git
    cd Rating-application-Assignment
 
+--- 
 
-Backend Setup
+## Backend Setup
 
 cd backend
-npm install
-npm start
 
 
-Frontend Setup
+--- 
+
+## Frontend Setup
 
 cd frontend
 npm install
 npm run dev
 
+--- 
 
-Database
+## Database
 
 Create a PostgreSQL/MySQL database.
 
 Run the migration scripts to set up tables.
 
-📊 Database Schema (Example)
+---
+
+## 📊 Database Schema (Example)
 
 Users: id, name, email, password, address, role
 
@@ -82,7 +86,9 @@ Stores: id, name, email, address
 
 Ratings: id, user_id, store_id, rating
 
-🙌 Author
+---
+
+## 🙌 Author
 
 👩‍💻 Tejashri Krushna Darade
 B.Tech Computer Engineering Student
